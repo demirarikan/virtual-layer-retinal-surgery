@@ -6,8 +6,6 @@ from needle_seg_model import NeedleSegModel
 from logger import Logger
 import numpy as np
 from image_conversion_without_using_ros import image_to_numpy
-import time
-
 
 class ROSDepthControl:
     def __init__(self, target_depth, max_vel, breathing_compensation, seg_model, logger):

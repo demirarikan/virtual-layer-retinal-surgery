@@ -4,10 +4,6 @@ from sensor_msgs.msg import Image
 from std_msgs.msg import Float64, Float32, Bool
 from geometry_msgs.msg import Vector3, Transform
 
-from oct_point_cloud import OctPointCloud
-from needle_seg_model import NeedleSegModel
-from image_conversion_without_using_ros import image_to_numpy
-
 import numpy as np
 
 

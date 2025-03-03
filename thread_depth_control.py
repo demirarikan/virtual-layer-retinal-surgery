@@ -1,7 +1,6 @@
 import queue
 import threading
 from concurrent.futures import ThreadPoolExecutor
-import time
 
 import mock_components
 from depth_calculator import DepthCalculator

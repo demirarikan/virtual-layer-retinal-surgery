@@ -4,8 +4,6 @@ from std_msgs.msg import Bool, Float64
 import numpy as np
 from scipy.spatial.transform import Rotation as R
 
-import time
-
 
 class RobotController:
     def __init__(self):
