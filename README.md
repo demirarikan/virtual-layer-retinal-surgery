@@ -21,7 +21,7 @@ To use this repository, clone it and install the necessary dependencies:
 
 ## Usage
 
->[!INFO]
+>[!WARNING]
 >Due to legal reasons we are not allowed to share the contents of the leica reader, which reads and converts Leica iOCT signals into numpy arrays.
 
 ### B<sup>5</sup>-scans
