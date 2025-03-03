@@ -5,6 +5,9 @@
 ## Overview 
 This repository contains the code for a real-time deformation-aware control system designed for autonomous robotic subretinal injection. The system is guided by intraoperative Optical Coherence Tomography (iOCT) to ensure precision during delicate surgical procedures.
 
+## Subretinal injection segmentation dataset
+Dataset used to train the segmentation network in this work can be found [here](https://github.com/demirarikan/subretinal-injection-oct-dataset).
+
 ## Features
 - Real-time deformation-aware control
 - Autonomous robotic subretinal injection
@@ -20,7 +23,6 @@ To use this repository, clone it and install the necessary dependencies:
 - Open3D
 
 ## Usage
-
 >[!WARNING]
 >Due to legal reasons we are not allowed to share the contents of the leica reader, which reads and converts Leica iOCT signals into numpy arrays.
 
