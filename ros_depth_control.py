@@ -160,7 +160,7 @@ if __name__ == "__main__":
     target_depth = 0.4
     max_vel = 0.4
     breathing_compensation = False
-    seg_model = NeedleSegModel(None, "weights/best_150_val_loss_0.4428_in_retina.pth")
+    seg_model = NeedleSegModel(None, "weights/model.pth")
     logger = Logger(log_dir="/media/peiyao/SSD1T/demir/oct22")
     depth_control = ROSDepthControl(target_depth, max_vel, breathing_compensation, seg_model, logger)
     rospy.spin()

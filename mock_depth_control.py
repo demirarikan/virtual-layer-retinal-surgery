@@ -60,7 +60,7 @@ if __name__ == "__main__":
             "/home/demir/Desktop/jhu_project/oct_scans/jul30/2-depth-cont/oct_volumes"
         )
     robot_controller = mock_components.RobotControllerMock()
-    seg_model = NeedleSegModel(None, "weights/best_150_val_loss_0.4428_in_retina.pth")
+    seg_model = NeedleSegModel(None, "weights/model.pth")
     logger = Logger()
     depth_calculator = DepthCalculator(None)
     process_latest_scan(

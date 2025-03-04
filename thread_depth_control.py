@@ -100,7 +100,7 @@ def depth_control_loop(target_depth_relative, n_bscans, dims, mock_mode):
         )
         robot_controller = RobotController()
 
-    seg_model = NeedleSegModel(None, "weights/best_150_val_loss_0.4428_in_retina.pth")
+    seg_model = NeedleSegModel(None, "weights/model.pth")
     depth_calculator = DepthCalculator(None)
     logger = Logger(log_dir="/media/peiyao/SSD1T/demir/")
     breathing_compensator = BreathingCompensator()
