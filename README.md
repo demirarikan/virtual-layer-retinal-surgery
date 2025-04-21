@@ -50,3 +50,18 @@ Target depth and the maximum insertion velocity can be changed in the main funct
 ```python
 python3 ros_depth_control.py
 ```
+
+## 📄 Cite This Work
+
+If you use this repository or find it helpful in your research, please cite:
+
+[Link to paper]([https://link-to-paper.com](https://arxiv.org/abs/2411.06557))
+
+BibTeX:
+```bibtex
+@article{Demir2024realtime,
+  title={Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance},
+  author={Demir Arikan, Peiyao Zhang, Michael Sommersperger, Shervin Dehghani, Mojtaba Esfandiari, Russel H. Taylor, M. Ali Nasseri, Peter Gehlbach, Nassir Navab, Iulian Iordachita},
+  journal={arXiv preprint arXiv:2411.06557},
+  year={2024}
+}
