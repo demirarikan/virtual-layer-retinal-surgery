@@ -1,17 +1,22 @@
-# Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance
+# Joint Repository for Papers: Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance (ICRA 2025) & Towards Motion Compensation in Autonomous Robotic Subretinal Injections (ISMR 2025)
 
-**Paper:** [Arxiv](https://arxiv.org/abs/2411.06557) 
+
+**Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance:** [Arxiv](https://arxiv.org/abs/2411.06557) 
+
+**Towards Motion Compensation in Autonomous Robotic Subretinal Injections:** [Arxiv](https://arxiv.org/abs/2411.18521) 
+
 
 ## Overview 
 This repository contains the code for a real-time deformation-aware control system designed for autonomous robotic subretinal injection. The system is guided by intraoperative Optical Coherence Tomography (iOCT) to ensure precision during delicate surgical procedures.
 
 ## Subretinal injection OCT segmentation dataset
-Dataset used to train the segmentation network in this work can be found [here](https://github.com/demirarikan/subretinal-injection-oct-dataset).
+Dataset used to train the segmentation network in these works can be found [here](https://github.com/demirarikan/subretinal-injection-oct-dataset).
 
 ## Features
 - Real-time deformation-aware control
 - Autonomous robotic subretinal injection
 - iOCT guidance for enhanced precision
+- Up and down eye motion compensation
 
 ## Installation
 To use this repository, clone it and install the necessary dependencies:
@@ -51,11 +56,13 @@ Target depth and the maximum insertion velocity can be changed in the main funct
 python3 ros_depth_control.py
 ```
 
-## 📄 Cite This Work
+## 📄 Cite These Works
 
 If you use this repository or find it helpful in your research, please cite:
 
-[Link to paper]([https://link-to-paper.com](https://arxiv.org/abs/2411.06557))
+[Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance](https://arxiv.org/abs/2411.06557)
+
+[Towards Motion Compensation in Autonomous Robotic Subretinal Injections](https://arxiv.org/abs/2411.18521)
 
 BibTeX:
 ```bibtex
@@ -65,3 +72,11 @@ BibTeX:
   journal={arXiv preprint arXiv:2411.06557},
   year={2024}
 }
+
+@article{Demir2024realtime,
+  title={Towards Motion Compensation in Autonomous Robotic Subretinal Injections},
+  author={Demir Arikan, Peiyao Zhang, Michael Sommersperger, Shervin Dehghani, Mojtaba Esfandiari, Russel H. Taylor, M. Ali Nasseri, Peter Gehlbach, Nassir Navab, Iulian Iordachita},
+  journal={arXiv preprint arXiv:2411.18521},
+  year={2024}
+}
+```
