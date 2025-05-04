@@ -1,4 +1,4 @@
-# Joint Repository for Papers: Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance (ICRA 2025) & Towards Motion Compensation in Autonomous Robotic Subretinal Injections (ISMR 2025)
+# Joint Repository for Papers: <br> Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance (ICRA 2025) <br> & <br> Towards Motion Compensation in Autonomous Robotic Subretinal Injections (ISMR 2025)
 
 
 **Real-time Deformation-aware Control for Autonomous Robotic Subretinal Injection under iOCT Guidance:** [Arxiv](https://arxiv.org/abs/2411.06557) 
