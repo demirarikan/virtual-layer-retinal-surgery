@@ -73,7 +73,7 @@ BibTeX:
   year={2024}
 }
 
-@article{Demir2024realtime,
+@article{Demir2024towards,
   title={Towards Motion Compensation in Autonomous Robotic Subretinal Injections},
   author={Demir Arikan, Peiyao Zhang, Michael Sommersperger, Shervin Dehghani, Mojtaba Esfandiari, Russel H. Taylor, M. Ali Nasseri, Peter Gehlbach, Nassir Navab, Iulian Iordachita},
   journal={arXiv preprint arXiv:2411.18521},
